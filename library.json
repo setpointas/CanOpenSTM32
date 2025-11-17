@@ -1,0 +1,13 @@
+{
+    "name": "CanopenSTM32",
+    "version": "1.0.1",
+    
+    "dependencies": {},
+    "frameworks": "*",
+    "platforms": "*",
+    
+    "build": {
+        "srcDir": ".",
+        "srcFilter": "+<*> -<legacy> -<examples>"
+    }
+}
