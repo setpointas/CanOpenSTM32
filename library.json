@@ -1,13 +1,19 @@
 {
-    "name": "CanopenSTM32",
-    "version": "1.0.1",
-    
-    "dependencies": {},
-    "frameworks": "*",
-    "platforms": "*",
-    
-    "build": {
-        "srcDir": ".",
-        "srcFilter": "+<*> -<legacy> -<examples>"
-    }
+  "name": "CanopenSTM32",
+  "version": "1.0.2",
+
+  "dependencies": {},
+  "frameworks": "*",
+  "platforms": "*",
+
+  "build": {
+    "srcDir": ".",
+
+    "srcFilter": "+<CANopenNode/> +<CANopenNode_STM32/> -<CANopenNode/example/> -<legacy/> -<examples/>",
+
+    "includeDirs": [
+      "CANopenNode",
+      "CANopenNode_STM32"
+    ]
+  }
 }
